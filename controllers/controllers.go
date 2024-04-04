@@ -16,7 +16,6 @@ func Health(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Write(responseJSON)
 }
-
 func GeneratePassword(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Start Page")
 }
