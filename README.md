@@ -50,3 +50,8 @@ SecureKey is a simple API for generating secure passwords and personalized sugge
 - **Custom Password Requests:** Clients can request specific password suggestions, such as "I need a password with special characters and 20 characters, including numbers" or simply ask for "A secure password, please."
 
 - **Flexible Integration:** SecureKey can be easily integrated into different contexts, from registration forms to authentication processes, offering a secure and convenient user experience.
+
+
+## Getting Started
+
+To begin using SecureKey in your projects, follow the instructions in the documentation provided in this repository. You can also explore code examples to understand how to integrate and utilize the API effectively.
