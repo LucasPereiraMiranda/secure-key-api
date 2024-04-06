@@ -56,6 +56,20 @@ SecureKey is a simple API for generating secure passwords and personalized sugge
 
 To begin using SecureKey in your projects, follow the instructions in the documentation provided in this repository. You can also explore code examples to understand how to integrate and utilize the API effectively.
 
+## :boom: Installation
+
+```bash
+# Clone this repo
+$ https://github.com/LucasPereiraMiranda/secure-key-api
+
+# build dependencies in go module:
+$ go get
+
+
+# compile & run the api with:
+$ go run main.go
+
+```
 
 ## License
 
