@@ -55,3 +55,8 @@ SecureKey is a simple API for generating secure passwords and personalized sugge
 ## Getting Started
 
 To begin using SecureKey in your projects, follow the instructions in the documentation provided in this repository. You can also explore code examples to understand how to integrate and utilize the API effectively.
+
+
+## License
+
+[MIT](LICENSE)
