@@ -18,3 +18,19 @@
 </p>
 
 <br>
+
+
+---
+
+## 🚀 Techs
+
+Secure Key API app was developed with these technologies
+
+- [Go](https://go.dev/)
+- [Mux](https://github.com/gorilla/mux)
+- [Docker](https://www.docker.com/)
+- [Docker-compose](https://docs.docker.com/compose/)
+
+## 💻 Project
+
+SecureKey is a simple API for generating secure passwords and personalized suggestions for your clients. With SecureKey, you can provide robust passwords tailored to the security needs of users.
