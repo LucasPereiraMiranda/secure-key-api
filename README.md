@@ -33,7 +33,7 @@ Secure Key API app was developed with these technologies
 
 ## 💻 Project
 
-SecureKey is a simple API for generating secure passwords and personalized suggestions for your clients. With SecureKey, you can provide robust passwords tailored to the security needs of users.
+SecureKey is a simple API for generating secure passwords and personalized suggestions for clients. With SecureKey, we can provide robust passwords tailored to the security needs of users.
 
 
 ### Key Features:
@@ -54,7 +54,7 @@ SecureKey is a simple API for generating secure passwords and personalized sugge
 
 ## Getting Started
 
-To begin using SecureKey in your projects, follow the instructions in the documentation provided in this repository. You can also explore code examples to understand how to integrate and utilize the API effectively.
+To begin using SecureKey in our projects, follow the instructions in the documentation provided in this repository. You can also explore code examples to understand how to integrate and utilize the API effectively.
 
 ## :boom: Installation
 
