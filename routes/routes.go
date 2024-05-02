@@ -16,7 +16,7 @@ func Router(host string, port string) {
 
 	router.Use(middleware.ContentTypeMiddleware)
 
-	router.HandleFunc("/api/health", controllers.Health)
+	router.HandleFunc("/api/health", controllers.Health).Methods("Get")
 	router.HandleFunc("/api/generate-password", controllers.GeneratePassword).Methods("Get")
 
 	address := fmt.Sprintf("%s:%s", host, port)
