@@ -6,25 +6,12 @@ import (
 	"net/http"
 	"strconv"
 	"time"
+
+	"password-generator-api/models"
 )
 
-type GeneratePasswordRequest struct {
-	NumDigits      int  `json:"num_digits"`
-	HasSpecialKeys bool `json:"has_special_keys"`
-	HasNumbersKey  bool `json:"has_numbers_key"`
-	UpperCaseKey   bool `json:"upper_case_key"`
-}
-
-type PasswordResponse struct {
-	Password string `json:"password"`
-}
-
-type ErrorResponse struct {
-	Error string `json:"error"`
-}
-
 func Health(w http.ResponseWriter, r *http.Request) {
-	response := map[string]string{"status": "healthy"}
+	response := models.HealthResponse{Status: "healthy"}
 
 	responseJSON, err := json.Marshal(response)
 	if err != nil {
@@ -84,7 +71,7 @@ func GeneratePassword(w http.ResponseWriter, r *http.Request) {
 		password[i] = chars[randGenerator.Intn(len(chars))]
 	}
 
-	response := PasswordResponse{
+	response := models.PasswordResponse{
 		Password: string(password),
 	}
 
@@ -100,7 +87,7 @@ func GeneratePassword(w http.ResponseWriter, r *http.Request) {
 }
 
 func respondWithError(w http.ResponseWriter, errMsg string) {
-	errResponse := ErrorResponse{Error: errMsg}
+	errResponse := models.ErrorResponse{Error: errMsg}
 	jsonResponse, err := json.Marshal(errResponse)
 	if err != nil {
 		http.Error(w, "Error encoding JSON", http.StatusInternalServerError)
