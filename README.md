@@ -29,7 +29,6 @@ Secure Key API app was developed with these technologies
 - [Go](https://go.dev/)
 - [Mux](https://github.com/gorilla/mux)
 - [Docker](https://www.docker.com/)
-- [Docker-compose](https://docs.docker.com/compose/)
 
 ## 💻 Project
 
